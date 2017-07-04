@@ -1,0 +1,10 @@
+{
+  "name": "typedoc-theme",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetsuo/typedoc-theme.git"
+  },
+  "homepage": "https://github.com/tetsuo/typedoc-theme#readme"
+}
