@@ -3,7 +3,7 @@
 my custom typedoc theme.
 
 ```
-npm install @tetsuo/typedoc-theme
+npm install typedoc-theme
 ```
 
 # usage
