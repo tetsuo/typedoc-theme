@@ -720,7 +720,7 @@ footer .tsd-legend { display: inline-block; width: 25%; padding: 0; font-size: 1
 .tsd-member { position: relative; }
 .tsd-member .tsd-anchor + h3 { margin-top: 0; margin-bottom: 0; border-bottom: none; }
 
-.tsd-navigation { padding: 0 0 0 40px; border-right: 1px solid #ddd; }
+.tsd-navigation { padding: 0 0 0 40px; }
 .tsd-navigation a { display: block; padding-top: 2px; padding-bottom: 2px; border-left: 2px solid transparent; color: #222; text-decoration: none; -webkit-transition: border-left-color 0.1s; transition: border-left-color 0.1s; }
 .tsd-navigation a:hover { text-decoration: underline; }
 .tsd-navigation ul { margin: 0; padding: 0; list-style: none; }
@@ -833,8 +833,8 @@ ul.tsd-parameters .tsd-comment, ul.tsd-type-parameters .tsd-comment { margin-top
 .tsd-sources ul, .tsd-sources p { margin: 0 !important; }
 .tsd-sources ul { list-style: none; padding: 0; }
 
-.tsd-page-toolbar { position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 40px; color: #333; background: rgb(212, 232, 255); border: none; }
-.tsd-page-toolbar a { color: #333; text-decoration: none; }
+.tsd-page-toolbar { position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 40px; color: #333; background: #4228f7;  border: none; }
+.tsd-page-toolbar a { color: #fff; text-decoration: none; }
 .tsd-page-toolbar a.title { font-weight: bold; }
 .tsd-page-toolbar a.title:hover { text-decoration: underline; }
 .tsd-page-toolbar .table-wrap { display: table; width: 100%; height: 40px; }
@@ -877,12 +877,31 @@ img { max-width: 100%; }
   border: none!important;
   padding: 0!important;
 }
-.ono-readme h1, h2, h3 {
+.ono-readme h1, h2 {
   margin: 0;
   padding: 0;
   padding-bottom: 10px;
   margin-top: 40px;
   margin-bottom: 10px;
+}
+
+.ono-readme h2 {
+  margin: 1.5em -20px 10px 0px !important;
+  padding-left: 0px!important;
+  padding-bottom: 8px!important;
+}
+
+.ono-readme p {
+  line-height: 1.65em!important;
+  font-size: 16px!important;
+}
+
+.ono-readme code, pre {
+  font-size: 14px!important;
+}
+
+.ono-gh {
+  top: 5px!important;
 }
 </style>
 </head>
